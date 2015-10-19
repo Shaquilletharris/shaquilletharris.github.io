@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Shaq's starter webpage</title>
+    <style>
+        body {
+            background: rgb(125, 198, 205);
+            color: rgb(45, 45, 45);
+            padding: 10px;
+            font-family:comic;
+        }
+        header {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        #all-contents {
+            max-width: 800px;
+            margin: auto;
+        }
+        
+        nav {
+            background: rgb(178, 120, 8);
+            margin: 0 auto;
+            margin-bottom: 20px;
+            display: flex;
+            padding: 10px;
+            border: groove 6px;
+            border-radius: 4px 3px 5px / 2px 6px;
+        }
+        nav ul {
+            list-style-image: none;
+        }
+        nav li {
+            display: inline-block;
+            padding: 0 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color:#fff;
+        }
+        
+        main {
+            background: rgb(245, 238, 219);
+            display: flex;
+        }
+        .sidebar {
+            margin-right: 25px;
+            padding: 10px;
+        }
+        [class=sidebar] img{
+            width: 200px;
+            border: groove 6px gold;
+            border-radius: 4px 6px 8px 6px;
+        }
+        .all-contents {
+            flex: 1;
+            padding: 15px;
+        }
+        [class=interests] header {
+            font-size: 1.25em;
+        }
+    </style>
+    </head>
+    
+    <body>
+        <div id="all-contents">
+            <nav>
+                <header>shaq's new website</header>
+                <u1>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="portfolio.html">portofolio</a></li>
+                </u1>    
+            </nav>
+            
+            
+            <main>
+                <div class="sidebar">
+                    
+                    <img src="https://pbs.twimg.com/profile_images/618200765463531520/KXVE2w7m_400x400.jpg">
+                 </div>
+                
+                <div class="content">
+                    <header>Shaquille Harris</header>
+                    <p>learning this coding is awesome!</p>
+                    <section class="interests">
+                    <header>Interests</header>
+                    <u1>
+                        <li>sports</li>
+                        <li>Family</li>
+                        <li>knowledge</li>
+                    </u1>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
